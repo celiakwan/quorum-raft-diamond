@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*.log
+node_modules/
+.vscode/
+build/
+.DS_Store/
+quorum/
+tessera/
+test/tx.txt
