@@ -136,7 +136,7 @@ npm install
     bootnode --genkey=nodekey3
     ```
 
-    Note: The node key filename of node one should remain unchanged (i.e. `nodekey`). Otherwise, it might throw errors when starting the node.
+    Note: The node key filename of node one should remain unchanged (i.e. `nodekey`). Otherwise, it might throw `Fatal: failed to find local enode ID (xxxxx) amongst peer IDs: [xxxxx xxxxx xxxxx]` when starting the node.
     &nbsp;
 
 9. Get the enode ID of each node.
@@ -533,7 +533,7 @@ The Truffle configuration file `truffle-config.js` specifies the Quorum network 
     In this project, node one and node two are the parties privy to the `Diamond` contract.
     &nbsp;
     
-    Note: If you receive errors when migrating or testing the contract, try to unlock the accounts.
+    Note: If you receive `Error: authentication needed: password or unlock` when migrating or testing the contract, try to unlock the accounts.
 
 ### Testing
 Run test cases using development or node one network.
