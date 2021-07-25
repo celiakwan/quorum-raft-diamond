@@ -41,7 +41,7 @@ npm install
     make all
     ```
 
-2. Set the directory where contains binaries to run `geth` and `bootnode` to `PATH`,
+2. Add the directory where contains binaries to run `geth` and `bootnode` to `PATH`,
     ```
     export PATH=/Users/celia/path/to/quorum/build/bin:$PATH
     ```
